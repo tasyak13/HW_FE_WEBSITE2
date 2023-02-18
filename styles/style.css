@@ -1,0 +1,318 @@
+
+.wrapper {
+    padding-left: 405px;
+    padding-right: 405px;
+}
+
+header {
+    height: 740px;
+    background-image: url(../img/banner.png);
+    padding-top: 192px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header h1 {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 64px;
+    line-height: 125px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding-bottom: 35px;
+}
+
+header h3 {
+    color: #FFFFFF; 
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.yars-on-market {
+    padding: 57px 130px;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+.yars-on-market ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+.yars-on-market li {
+    width: 25%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+span.years {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7654A;
+    margin-bottom: 25px;
+}
+
+span.years-two {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+span.on-market {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
+
+section.content {
+    height: 1081px;
+}
+
+.content h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404149;
+    padding-top: 200px;
+    padding-bottom: 60px;
+}
+
+ul.big-projects {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+ul.big-projects li {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    width: 55px;
+    height: 6px;
+    background-color: #F7654A;
+    margin-top: 35px;
+    margin-left: 0;
+}
+
+span.arena {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+    margin-top: 15px;
+}
+
+span.arena-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+    margin-top: 20px;
+}
+
+section.link {
+    height: 181px;
+    background-color: #F7654A;
+    padding-top: 30px;
+}
+
+section.link ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.link {
+    display: flex;
+    flex-direction: column;
+}
+
+span.first-link {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+span.second-link {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+span.button {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding: 14px 46px;
+    background-color: #FFFFFF;
+}
+
+section.about-us h4 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 36px;
+    text-align: center;
+}
+
+section.about-us ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between
+}
+
+section.about-us li {
+    height: 250px;
+    width: 350px;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+section.about-us li span {
+    width: 172px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.big-about-us {
+    flex-wrap: wrap;
+}
+
+section.contacts h4 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+section.contacts ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+section.contacts ul li {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+
+img.contacts {
+    height: 70px;
+    width: 70px;
+    background-color: #FFFFFF;
+}
+
+span.about {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #999999;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+span.two-links {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+footer {
+    height: 82px;
+    background-color: #404149;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+footer ul li {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
